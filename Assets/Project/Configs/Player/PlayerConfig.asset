@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb6ed3d420bf2f4695e46811fd5f559, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  playerGroundedData:
+    baseSpeed: 5
+    idleData:
+      speedModifier: 0
+      rotationData:
+        targetRotationReachTime: {x: 0, y: 0.14, z: 0}
+    runData:
+      speedModifier: 1
+      rotationData:
+        targetRotationReachTime: {x: 0, y: 0.14, z: 0}
+  playerAirborneData:
+    jumpData:
+      speedModifier: 0
+      rotationData:
+        targetRotationReachTime: {x: 0, y: 0.02, z: 0}
+      stationaryForce: {x: 0, y: 5, z: 0}
+      runForce: {x: 3.5, y: 5, z: 3.5}
+  playerLayerData:
+    groundLayer:
+      serializedVersion: 2
+      m_Bits: 64
